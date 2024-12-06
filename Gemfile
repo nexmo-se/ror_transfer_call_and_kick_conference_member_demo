@@ -50,8 +50,4 @@ end
 
 gem "vonage", "~> 7.28"
 
-gem "solargraph", "~> 0.50.0"
-
-gem "yard", "~> 0.9.37"
-
 gem "annotate", "~> 2.6"
