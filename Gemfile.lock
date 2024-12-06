@@ -76,7 +76,6 @@ GEM
       activerecord (>= 2.3.0)
       rake (>= 0.8.7)
     ast (2.4.2)
-    backport (1.2.0)
     base64 (0.2.0)
     bcrypt_pbkdf (1.1.1)
     bcrypt_pbkdf (1.1.1-arm64-darwin)
@@ -95,10 +94,8 @@ GEM
     debug (1.9.2)
       irb (~> 1.10)
       reline (>= 0.3.8)
-    diff-lcs (1.5.1)
     dotenv (3.1.4)
     drb (2.2.1)
-    e2mmap (0.1.0)
     ed25519 (1.3.0)
     erubi (1.13.0)
     et-orbi (1.2.11)
@@ -114,7 +111,6 @@ GEM
     irb (1.14.1)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    jaro_winkler (1.6.0)
     json (2.9.0)
     jwt (2.9.3)
       base64
@@ -129,10 +125,6 @@ GEM
       sshkit (>= 1.23.0, < 2.0)
       thor (~> 1.3)
       zeitwerk (>= 2.6.18, < 3.0)
-    kramdown (2.5.1)
-      rexml (>= 3.3.9)
-    kramdown-parser-gfm (1.1.0)
-      kramdown (~> 2.0)
     language_server-protocol (3.17.0.3)
     logger (1.6.2)
     loofah (2.23.1)
@@ -228,14 +220,11 @@ GEM
       zeitwerk (~> 2.6)
     rainbow (3.1.1)
     rake (13.2.1)
-    rbs (2.8.4)
     rdoc (6.8.1)
       psych (>= 4.0.0)
     regexp_parser (2.9.3)
     reline (0.5.12)
       io-console (~> 0.5)
-    reverse_markdown (2.1.1)
-      nokogiri
     rexml (3.3.9)
     rubocop (1.69.1)
       json (~> 2.3)
@@ -267,23 +256,7 @@ GEM
       rubocop-rails
     ruby-progressbar (1.13.0)
     securerandom (0.4.0)
-    solargraph (0.50.0)
-      backport (~> 1.2)
-      benchmark
-      bundler (~> 2.0)
-      diff-lcs (~> 1.4)
-      e2mmap
-      jaro_winkler (~> 1.5)
-      kramdown (~> 2.3)
-      kramdown-parser-gfm (~> 1.1)
-      parser (~> 3.0)
-      rbs (~> 2.0)
-      reverse_markdown (~> 2.0)
-      rubocop (~> 1.38)
-      thor (~> 1.0)
-      tilt (~> 2.0)
-      yard (~> 0.9, >= 0.9.24)
-    solid_cable (3.0.2)
+    solid_cable (3.0.3)
       actioncable (>= 7.2)
       activejob (>= 7.2)
       activerecord (>= 7.2)
@@ -323,7 +296,6 @@ GEM
     thruster (0.1.9-arm64-darwin)
     thruster (0.1.9-x86_64-darwin)
     thruster (0.1.9-x86_64-linux)
-    tilt (2.4.0)
     timeout (0.4.2)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
@@ -345,7 +317,6 @@ GEM
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    yard (0.9.37)
     zeitwerk (2.7.1)
 
 PLATFORMS
@@ -373,7 +344,6 @@ DEPENDENCIES
   puma (>= 5.0)
   rails (~> 8.0.0)
   rubocop-rails-omakase
-  solargraph (~> 0.50.0)
   solid_cable
   solid_cache
   solid_queue
@@ -381,7 +351,6 @@ DEPENDENCIES
   thruster
   tzinfo-data
   vonage (~> 7.28)
-  yard (~> 0.9.37)
 
 BUNDLED WITH
    2.5.22
